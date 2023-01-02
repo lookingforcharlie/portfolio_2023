@@ -1,7 +1,7 @@
 # New Portfolio - 2023
 
 Version 1.0.0  
-Date: January 2nd, 2023
+Date: January 2nd, 2023<br>
 Author: XF
 
 ## Technical Stacks
@@ -27,8 +27,8 @@ We don't need uuid library anymore.</p>
 
 ## Expected Updates
 
-Flip the projects cards
-Validation of contact form
+Flip the projects cards<br>
+Validation of contact form<br>
 Re-write README.md
 
 ## Updates
