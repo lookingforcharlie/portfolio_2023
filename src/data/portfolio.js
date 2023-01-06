@@ -42,9 +42,9 @@ export default [
   },
   {
     title: 'First To-do List',
-    imgUrl: '/assets/To_do_list.png',
-    stack: ['React', 'LocalStorage'],
-    linkLive: 'https://blackandwhite-todolist.netlify.app/',
+    imgUrl: '/assets/todolist_firebase.png',
+    stack: ['React', 'TypeScript', 'Firebase'],
+    linkLive: 'https://todolist-firebase-ten.vercel.app/',
     linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
     demo: 'https://google.ca',
   },
