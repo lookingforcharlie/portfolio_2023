@@ -41,11 +41,19 @@ export default [
     demo: 'https://google.ca',
   },
   {
-    title: 'First To-do List',
-    imgUrl: '/assets/todolist_firebase.png',
-    stack: ['React', 'TypeScript', 'Firebase'],
-    linkLive: 'https://todolist-firebase-ten.vercel.app/',
+    title: 'Minimalist To-do List',
+    imgUrl: '/assets/todolist_minimal.png',
+    stack: ['React', 'LocalStorage'],
+    linkLive: 'https://blackandwhite-todolist.netlify.app/',
     linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
     demo: 'https://google.ca',
   },
+  // {
+  //   title: 'First To-do List',
+  //   imgUrl: '/assets/todolist_firebase.png',
+  //   stack: ['React', 'TypeScript', 'Firebase'],
+  //   linkLive: 'https://todolist-firebase-ten.vercel.app/',
+  //   linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
+  //   demo: 'https://google.ca',
+  // },
 ];

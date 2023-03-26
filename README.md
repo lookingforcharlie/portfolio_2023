@@ -1,6 +1,6 @@
 # New Portfolio - 2023
 
-Version 1.0.0  
+Version 1.0.1  
 Date: January 2nd, 2023<br>
 Author: XF
 
@@ -32,3 +32,5 @@ Validation of contact form<br>
 Re-write README.md
 
 ## Updates
+
+Version 1.0.1: modify the link of to-do-list project
