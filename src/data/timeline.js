@@ -2,7 +2,7 @@ export default [
   {
     year: 'Today',
     title: 'Full Stack Web Developer',
-    duration: '2 years',
+    duration: 'Almost 3 years',
     details:
       'I graduated from Mohawk College as a Software Management Major. I built 45 projects using 7 different programming languages, and I am ready to do some damage in the digital world.',
   },

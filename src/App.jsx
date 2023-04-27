@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import Intro from './components/Intro';
-import Portfolio from './components/Portfolio';
-import Timeline from './components/Timeline';
+import React, { useEffect, useState } from 'react';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Intro from './components/Intro';
+import Portfolio from './components/Portfolio';
+import Timeline from './components/Timeline';
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -67,7 +67,7 @@ function App() {
       <button
         type='button'
         onClick={handleThemeSwitch}
-        className='fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md'
+        className='fixed p-2 z-10 right-20 top-6 bg-violet-300 dark:bg-orange-300 text-lg rounded-md'
       >
         {theme === 'dark' ? sun : moon}
       </button>

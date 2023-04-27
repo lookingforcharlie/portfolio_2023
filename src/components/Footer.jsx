@@ -1,11 +1,13 @@
 import React from 'react';
-import { FiTwitter } from 'react-icons/fi';
-import { FiGithub } from 'react-icons/fi';
-import { FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
+import logo from '../../public/assets/rabbit_bot.png';
 
 function Footer() {
   return (
-    <div className='py-5 text-center'>
+    <div className='py-8 text-center'>
+      <div className='flex items-center justify-center'>
+        <img src={logo} alt='' className='w-12 rounded-full' />
+      </div>
       <div className='flex-none px-3 mx-3 mt-3'>
         <a
           href='https://github.com/lookingforcharlie'

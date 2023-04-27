@@ -1,11 +1,13 @@
-import { FiTwitter } from 'react-icons/fi';
-import { FiGithub } from 'react-icons/fi';
-import { FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
+import logo from '../../public/assets/rabbit_bot.png';
 
 function Header() {
   return (
     <div className='container mx-auto'>
       <div className='flex-none px-2 mx-2 pt-5'>
+        <div className='inline'>
+          <img src={logo} alt='' className='w-12 inline mr-8 rounded-full' />
+        </div>
         <a
           href='https://github.com/lookingforcharlie'
           target='_blank'
