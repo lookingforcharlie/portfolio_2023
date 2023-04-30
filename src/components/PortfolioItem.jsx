@@ -39,7 +39,7 @@ function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit }) {
               href={linkLive}
               target='_blank'
               rel='noopener noreferrer'
-              className='mt-2 rounded-md bg-neutral-800 w-48 py-3 px-2 text-base hover:bg-neutral-900'
+              className='mt-2 relative overflow-hidden py-1 after:h-[2px] after:w-full after:bottom-0 after:right-full after:bg-orange-700 after:absolute hover:after:right-0 after:duration-200'
             >
               View Live Version
             </a>
@@ -48,7 +48,7 @@ function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit }) {
               target='_blank'
               rel='noopener noreferrer'
               // disable a tag for Mobile Math Game app, cos it doesn't have github
-              className={`mt-2 rounded-md bg-neutral-800 w-48 py-3 px-2 text-base hover:bg-neutral-900 ${
+              className={`mt-2 relative overflow-hidden py-1 after:h-[2px] after:w-full after:bottom-0 after:right-full after:bg-orange-700 after:absolute hover:after:right-0 after:duration-200 ${
                 linkGit === '#' && 'pointer-events-none'
               } `}
             >

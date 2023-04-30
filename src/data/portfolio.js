@@ -28,7 +28,7 @@ export default [
     imgUrl: '/assets/mathGame.png',
     stack: ['ReactNative', 'Node', 'SQLite', 'Redis'],
     linkLive: 'https://youtu.be/IArmm4ae5hw',
-    linkGit: '#',
+    linkGit: 'https://github.com/lookingforcharlie/math-game',
     demo: 'https://youtu.be/IArmm4ae5hw',
   },
   {
