@@ -1,12 +1,12 @@
 export default [
-  {
-    title: 'Flashcards',
-    imgUrl: '/assets/flashcards-1st.png',
-    stack: ['React', 'Express', 'MongoDB', 'TypeScript', 'TailWind CSS'],
-    linkLive: 'https://wdr-flashcards-client.vercel.app/',
-    linkGit: 'https://github.com/lookingforcharlie/wdr-flashcards-server',
-    demo: '#',
-  },
+  // {
+  //   title: 'Flashcards',
+  //   imgUrl: '/assets/flashcards-1st.png',
+  //   stack: ['React', 'Express', 'MongoDB', 'TypeScript', 'TailWind CSS'],
+  //   linkLive: 'https://wdr-flashcards-client.vercel.app/',
+  //   linkGit: 'https://github.com/lookingforcharlie/wdr-flashcards-server',
+  //   demo: '#',
+  // },
   {
     title: 'GitHuber Finder',
     imgUrl: '/assets/githubfinder530.png',
@@ -39,15 +39,15 @@ export default [
     linkGit: 'https://github.com/lookingforcharlie/historicVillages',
     demo: '#',
   },
-  // {
-  //   title: 'Weather Application',
-  //   imgUrl: '/assets/weatherapp530.png',
-  //   stack: ['React', 'TypeScript', 'Weather API'],
-  //   linkLive: 'https://weather-app-minimalist.netlify.app/',
-  //   linkGit:
-  //     'https://github.com/lookingforcharlie/weather-app-react-typescript',
-  //   demo: '#',
-  // },
+  {
+    title: 'Weather Application',
+    imgUrl: '/assets/weatherapp530.png',
+    stack: ['React', 'TypeScript', 'Weather API'],
+    linkLive: 'https://weather-app-minimalist.netlify.app/',
+    linkGit:
+      'https://github.com/lookingforcharlie/weather-app-react-typescript',
+    demo: '#',
+  },
   // {
   //   title: 'Minimalist To-do List',
   //   imgUrl: '/assets/todolist_minimal.png',
