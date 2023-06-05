@@ -1,5 +1,20 @@
 export default [
   {
+    title: 'Icon Generator',
+    imgUrl: '/assets/dalle_icons.png',
+    stack: [
+      'Next.JS',
+      'NextAuth',
+      'Prisma',
+      'PostgreSQL',
+      'tRPC',
+      'Tailwind CSS',
+    ],
+    linkLive: 'https://icons.meetxb.com',
+    linkGit: 'https://github.com/lookingforcharlie/dalle-icon-generator',
+    demo: '#',
+  },
+  {
     title: 'Flashcards',
     imgUrl: '/assets/flashcards-ss.png',
     stack: ['React', 'Express', , 'Restful API', 'MongoDB', 'TypeScript'],
@@ -15,14 +30,14 @@ export default [
     linkGit: 'https://github.com/lookingforcharlie/new-github-finder',
     demo: '#',
   },
-  {
-    title: 'Property Explorer',
-    imgUrl: '/assets/property530.png',
-    stack: ['React', 'Firebase', 'FireStore'],
-    linkLive: 'https://property-marketplace-jade.vercel.app/',
-    linkGit: 'https://github.com/lookingforcharlie/house-marketplace',
-    demo: '#',
-  },
+  // {
+  //   title: 'Property Explorer',
+  //   imgUrl: '/assets/property530.png',
+  //   stack: ['React', 'Firebase', 'FireStore'],
+  //   linkLive: 'https://property-marketplace-jade.vercel.app/',
+  //   linkGit: 'https://github.com/lookingforcharlie/house-marketplace',
+  //   demo: '#',
+  // },
   {
     title: 'Mobile Math Game',
     imgUrl: '/assets/mathGame.png',
