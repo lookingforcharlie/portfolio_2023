@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../public/assets/avatar.png';
+import avatar from '../../public/assets/avatar_min.png';
 
 function Intro() {
   return (
@@ -12,11 +12,12 @@ function Intro() {
       </p>
 
       {/* adding image starts*/}
-      <div className='relative my-3'>
+      <div className='relative my-3 hover:-rotate-45 transition duration-200'>
         <img
           src={avatar}
           alt='avatar'
-          className='rounded-full w-60 h-60 border-2 border-stone-900 dark:border-white dark:border-stone-400 shadow-xl'
+          className='rounded-full w-60 h-60 border-2 border-stone-900 dark:border-stone-400 shadow-xl'
+          loading='lazy'
         />
       </div>
       {/* adding image ends*/}
@@ -35,7 +36,7 @@ function Intro() {
         <br />I am a{' '}
         <span className='text-cyan-600'>Full Stack Web Developer</span> building
         my own version of digital world, and my current goal is to become a
-        sophisticated version of it which requires a significant learning curve.{' '}
+        proficient version of it which requires a significant learning curve.{' '}
         <span className='text-cyan-600'>
           “Your enthusiasm of learning is tremendous”
         </span>{' '}

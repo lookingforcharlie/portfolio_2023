@@ -11,6 +11,7 @@ function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit }) {
             className='w-full h-2/3 object-cover rounded-t-md  shadow-xl shadow-black/40'
             src={imgUrl}
             alt='image'
+            loading='lazy'
           />
           <div className='w-full p-4'>
             <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold'>

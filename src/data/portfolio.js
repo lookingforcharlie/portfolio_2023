@@ -23,6 +23,21 @@ export default [
     demo: '#',
   },
   {
+    title: 'Real-Time Chatter',
+    imgUrl: '/assets/chatter.png',
+    stack: [
+      'Next.JS',
+      'NextAuth',
+      'TypeScript',
+      'Redis',
+      'WebSocket',
+      'Tailwind CSS',
+    ],
+    linkLive: 'https://real-time-chatter.vercel.app',
+    linkGit: 'https://github.com/lookingforcharlie/real_time_chatter',
+    demo: '#',
+  },
+  {
     title: 'GitHuber Finder',
     imgUrl: '/assets/githubfinder530.png',
     stack: ['React', 'TailWind CSS', 'GitHub API'],
@@ -71,12 +86,12 @@ export default [
   //   linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
   //   demo: '#',
   // },
-  {
-    title: 'First To-do List',
-    imgUrl: '/assets/todolist_firebase.png',
-    stack: ['React', 'TypeScript', 'Firebase'],
-    linkLive: 'https://todolist-firebase-ten.vercel.app/',
-    linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
-    demo: '#',
-  },
+  // {
+  //   title: 'First To-do List',
+  //   imgUrl: '/assets/todolist_firebase.png',
+  //   stack: ['React', 'TypeScript', 'Firebase'],
+  //   linkLive: 'https://todolist-firebase-ten.vercel.app/',
+  //   linkGit: 'https://github.com/lookingforcharlie/todo-list-react',
+  //   demo: '#',
+  // },
 ];
