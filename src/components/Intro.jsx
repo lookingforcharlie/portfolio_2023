@@ -8,7 +8,7 @@ function Intro() {
         Xiaobing Feng
       </h1>
       <p className='text-base md:text-xl mb-3 font-medium'>
-        Web & Mobile Developer
+        Full Stack Web Developer
       </p>
 
       {/* adding image starts*/}
