@@ -73,7 +73,7 @@ function App() {
       </button>
       <div
         className='bg-white 
-        dark:bg-stone-900 dark:text-stone-300 
+        dark:bg-[#141E1B] dark:text-stone-300 
         text-stone-900 min-h-screen font-inter'
       >
         <div className='max-w-5xl w-11/12 mx-auto'>

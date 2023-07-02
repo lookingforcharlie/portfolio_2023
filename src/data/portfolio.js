@@ -12,7 +12,7 @@ export default [
     ],
     linkLive: 'https://icons.meetxb.com',
     linkGit: 'https://github.com/lookingforcharlie/dalle-icon-generator',
-    demo: '#',
+    demo: 'https://youtu.be/8SIAU4kHrvM',
   },
   {
     title: 'Flashcards',
@@ -35,7 +35,7 @@ export default [
     ],
     linkLive: 'https://real-time-chatter.vercel.app',
     linkGit: 'https://github.com/lookingforcharlie/real_time_chatter',
-    demo: '#',
+    demo: 'https://youtu.be/fiGdjj3IXo8',
   },
   {
     title: 'GitHuber Finder',

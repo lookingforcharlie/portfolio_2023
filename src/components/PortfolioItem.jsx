@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit }) {
+function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit, linkDemo }) {
   return (
     // <!-- Card start:  -->
     <div className='group h-96 w-80 [perspective:1000px]'>
@@ -36,13 +36,24 @@ function PortfolioItem({ title, imgUrl, stack, linkLive, linkGit }) {
           <div className='flex min-h-full flex-col items-center justify-center space-y-4'>
             <h1 className='text-3xl font-bold mb-6'>{title}</h1>
 
+            {linkDemo === '#' ? null : (
+              <a
+                href={linkDemo}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='mt-2 relative overflow-hidden py-1 after:h-[2px] after:w-full after:bottom-0 after:right-full after:bg-orange-700 after:absolute hover:after:right-0 after:duration-200'
+              >
+                Demo On YouTube
+              </a>
+            )}
+
             <a
               href={linkLive}
               target='_blank'
               rel='noopener noreferrer'
               className='mt-2 relative overflow-hidden py-1 after:h-[2px] after:w-full after:bottom-0 after:right-full after:bg-orange-700 after:absolute hover:after:right-0 after:duration-200'
             >
-              View Live Version
+              Visit the Website
             </a>
             <a
               href={linkGit}
