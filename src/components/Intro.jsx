@@ -12,7 +12,8 @@ function Intro() {
       </p>
 
       {/* adding image starts*/}
-      <div className='relative my-3 hover:-rotate-45 transition duration-200'>
+      {/* <div className='relative my-3 hover:-rotate-45 transition duration-100 hover:animate-shake'> */}
+      <div className='relative my-3 hover:animate-shake'>
         <img
           src={avatar}
           alt='avatar'
