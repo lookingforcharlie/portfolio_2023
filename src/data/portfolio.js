@@ -2,14 +2,7 @@ export default [
   {
     title: 'Icon Generator',
     imgUrl: '/assets/dalle_icons.png',
-    stack: [
-      'Next.JS',
-      'NextAuth',
-      'Prisma',
-      'PostgreSQL',
-      'tRPC',
-      'Tailwind CSS',
-    ],
+    stack: ['Next.JS', 'NextAuth', 'Prisma', 'PostgreSQL', 'tRPC', 'Stripe'],
     linkLive: 'https://icons.meetxb.com',
     linkGit: 'https://github.com/lookingforcharlie/dalle-icon-generator',
     demo: 'https://youtu.be/8SIAU4kHrvM',
