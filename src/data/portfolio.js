@@ -34,7 +34,7 @@ export default [
     title: 'GitHuber Finder',
     imgUrl: '/assets/githubfinder530.png',
     stack: ['React', 'TailWind CSS', 'GitHub API'],
-    linkLive: 'https://new-github-finder-aug22.vercel.app/',
+    linkLive: 'https://new-github-finder-one.vercel.app/',
     linkGit: 'https://github.com/lookingforcharlie/new-github-finder',
     demo: '#',
   },
